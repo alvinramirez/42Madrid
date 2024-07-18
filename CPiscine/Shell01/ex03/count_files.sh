@@ -1,2 +1,1 @@
-#! /bin/bash
-find . \( -type f -o -type d \) | wc -l
+find . | wc -l | tr -d '\n'
