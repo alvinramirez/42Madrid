@@ -9,4 +9,5 @@ rev | \
 sort -r | \
 sed -n "${FT_LINE1},${FT_LINE2}p" | \
 paste -sd ", " - | \
-echo "${result}."
+sed 's/$/./' | \
+tr -d '\n'
