@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <unistd.h>
 
 void ft_swap(int *a, int *b)
 {
@@ -20,7 +20,7 @@ void ft_swap(int *a, int *b)
     *a = *b;
     *b = temp;
 }
-
+/*
 void ft_putnbr(int n)
 {
     if (n == -2147483648) // Manejo especial para el menor entero posible en C
@@ -62,3 +62,4 @@ int main(void)
 
     return 0;
 }
+*/

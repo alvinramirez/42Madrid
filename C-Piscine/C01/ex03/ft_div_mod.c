@@ -1,5 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_div_mod.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alvinram <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/18 15:30:09 by alvinram          #+#    #+#             */
+/*   Updated: 2024/07/25 00:10:55 by alvinram         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include <unistd.h>
+//#include <unistd.h>
 
-void ft_div_mod(int a, int b, int *div, int *mod);
-
+void	ft_div_mod(int a, int b, int *div, int *mod)
+{
+	*div = a / b;
+	*mod = a % b;
+}
+/*
+int main()
+{
+	ft_div_mod();
+	return 0;
+}
+*/

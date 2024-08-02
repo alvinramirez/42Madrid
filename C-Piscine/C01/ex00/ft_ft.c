@@ -10,19 +10,16 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+//#include <unistd.h>
 
-//void	ft_ft(int *nbr)
-//{
-//	*nbr = 42;
-//}
-
+void	ft_ft(int *nbr)
+{
+	*nbr = 42;
+}
+/*
 int main()
 {
-	void ft_ft(int *nbr)
-	{
-		*nbr = 42;
-	}
 	ft_ft(nbr);
 	return 0;
 }
+*/
